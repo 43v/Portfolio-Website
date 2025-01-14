@@ -1,0 +1,271 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+@font-face {
+  font-family: Noyh;
+  src: url(NoyhGeometricSemiLight.otf);
+}
+
+@font-face {
+  font-family: Ket;
+  src: url(Ketimun.otf);
+}
+
+
+@font-face {
+  font-family: Kooky;
+  src: url(KookyRegular.ttf);
+}
+
+body {
+  background-color: #F7F0F0;
+  height: 100%;
+}
+
+header {
+  flex-direction: row;
+  height: 100px;
+  display: flex;
+
+}
+
+.headerfill1 {
+  width: 25%;
+  height: 100%;
+  background-color: #F7F0F0;
+}
+
+nav {
+  width: 50%;
+  height: 100%;
+  background-color: F7F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.headerfill3 {
+  width: 25%;
+  height: 100%;
+  background-color: #F7F0F0;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
+  font-family: 'Tajawal', sans-serif;
+  display: inline-block;
+  transition: transform 0.2s ease;
+  /* Smooth transition for transform property */
+  color: #696969;
+}
+
+ul li a:hover {
+  animation: bounce 0.6s ease;
+  /* Bounce animation on hover */
+  transform: scale(0.95);
+  /* Slight zoom-out effect */
+}
+
+
+
+
+
+.universe {
+
+  display: flex;
+  flex-direction: row;
+}
+
+.universefill1 {
+
+  width: 10%;
+  height: 1500px;
+}
+
+.universefill2 {
+
+  width: 80%;
+  height: 1500px;
+}
+
+
+.introduction-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.wave {
+  height: 30px;
+  width: 30px;
+}
+
+.introduction {
+  font-size: 25px;
+  color: #696969;
+}
+
+.software-developer {
+  color: #797BAE;
+  font-family: 'Kaisei Decol', serif;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+.universefill3 {
+
+  width: 10%;
+  height: 1500px;
+}
+
+.projects {
+  font-size: 50px;
+  color: #696969;
+  font-family: 'Ket', cursive;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+.capabilities {
+  font-size: 50px;
+  color: #696969;
+  font-family: 'Ket', cursive;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+
+
+.fill {
+  width: 50px;
+  height:10px;
+  }
+
+.project-container-1 {
+  display: flex;
+flex-direction: row;
+gap: 200px;
+justify-content: center;
+}
+
+.project-window-1 {
+  height: 286px;
+  width: 508px;
+  background-color: #9FA1CD;
+}
+
+.tekst-project {
+  text-align: center;
+  font-family: 'Itim', cursive;
+  color:  #696969;
+}
+
+.richard-respect-button{
+gap: 10px;
+display: flex;
+flex-direction: column;
+}
+.project-window-2 {
+  height: 286px;
+  width: 508px;
+  background-color: #9FA1CD;
+}
+
+.fill {
+  width: 50px;
+  height: 115px;
+  }
+
+.fill2 {
+width: 50px;
+height: 115px;
+}
+.project-container-2 {
+  display: flex;
+flex-direction: row;
+gap: 200px;
+justify-content: center;
+}
+
+.project-window-3 {
+  height: 286px;
+  width: 508px;
+  background-color: #9FA1CD;
+}
+
+.project-window-4 {
+  height: 286px;
+  width: 508px;
+  background-color: #9FA1CD;
+}
+
+footer {
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-fill-1 {
+  background-color: #4F517D;
+  width: 25%;
+  height: 100%;
+}
+
+.footer-fill-2 {
+  background-color: #4F517D;
+  width: 50%;
+  height: 100%;
+}
+
+.footer-fill-3 {
+  background-color: #4F517D;
+  width: 25%;
+  height: 100%;
+}
+
+.afbeelding-container {
+  justify-content: flex-end;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.githubafbeelding {
+  height: 18px;
+  height: 18px;
+
+}
+
+
+.instagramafbeelding {
+  height: 18px;
+  height: 18px;
+
+}
+
+.linkedinafbeelding {
+
+
+  height: 18px;
+  height: 18px;
+}
