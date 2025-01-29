@@ -4,6 +4,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: Noyh;
   src: url(NoyhGeometricSemiLight.otf);
@@ -95,13 +99,13 @@ ul li a:hover {
 .universefill1 {
 
   width: 10%;
-  height: 3000px;
+  height: 3200px;
 }
 
 .universefill2 {
 
   width: 80%;
-  height: 3000px;
+  height: 3200px;
 }
 
 
@@ -109,6 +113,7 @@ ul li a:hover {
   display: flex;
   flex-direction: row;
   gap: 10px;
+justify-content: center;
 }
 
 .wave {
@@ -126,13 +131,17 @@ ul li a:hover {
   font-family: 'Kaisei Decol', serif;
   font-weight: bold;
   font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+justify-content: center;
 
 }
 
 .universefill3 {
 
   width: 10%;
-  height: 3000px;
+  height: 3200px;
 }
 
 .projects {
@@ -194,7 +203,7 @@ ul li a:hover {
 .capability11 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
@@ -208,7 +217,7 @@ ul li a:hover {
 .capability22 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
@@ -222,7 +231,7 @@ ul li a:hover {
 .capability33 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
@@ -236,25 +245,31 @@ ul li a:hover {
 .capability44 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
 .capability5 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
 .capability55 {
   height: 57px;
   width: 62px;
-  background-color: #D9D9D9;
+  background-color: #F7F0F0;
   margin-top: 10px;
 }
 
-
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+  gap: 25px;
+}
 .bio-header {
   font-size: 50px;
   color: #696969;
@@ -267,6 +282,7 @@ ul li a:hover {
 .bio-alt {
 display: flex;
 flex-direction: row;
+gap: 50px;
 }
 
 .bio-text {
@@ -279,13 +295,17 @@ color: #696969;
 
 .bio-picture {
 width: 280px;
-  height: 300px;
+  height: 280px;
   background-color: #797BAE;
 }
-.fill {
-  width: 50px;
-  height: 10px;
+.bio-picture-class {
+  width: 100%;      /* Makes the image take up the full width of the div */
+  height: auto;     /* Maintains the aspect ratio of the image */
+  object-fit: cover; /* Ensures the image covers the div, cropping if necessary */
+  display: block;   /* Removes any extra spacing around the image */
 }
+
+
 
 .project-container-1 {
   display: flex;
@@ -333,7 +353,12 @@ width: 280px;
 
 .fill {
   width: 50px;
-  height: 115px;
+  height: 105px;
+}
+
+.fill-2 {
+  width: 50px;
+  height: 50px;
 }
 
 .fill2 {
